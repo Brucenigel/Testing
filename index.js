@@ -1,3 +1,3 @@
 function add(){
-    return 12 + 12
+    return 1 + 1;
 }
