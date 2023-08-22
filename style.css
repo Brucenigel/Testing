@@ -10,19 +10,12 @@ body {
   .border {
     border: 1.5px solid #e2e2e2;
   }
+
   .card {
     width: 400px;
     height: auto;
   }
   
-  .progress-bar {
-      height: 100%;
-      font-size: 12px;
-      line-height: 20px;
-      color: #fffafa;
-      text-align: center;
-      background-color: #F05F33;
-  }
   .item {
     padding: 20px;
     background-color: #e2e2e2;
