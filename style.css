@@ -24,6 +24,7 @@ body {
   .progress-bar {
     position: relative;
     height: 15px;
+    width: 15px;
     font-size: 12px;
     line-height: 20px;
     color: #fff;
