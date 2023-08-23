@@ -1,73 +1,74 @@
 body {
-    font-family: system-ui;
-    background: white;
-    color: black;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .border {
-    border: 1.5px solid #e2e2e2;
-  }
-  .card {
-    width: 400px;
-    height: auto;
-  }
+  font-family: system-ui;
+  background: white;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
 
-  .progress {
-     height: auto;
-  }
+.border {
+  border: 1.5px solid #e2e2e2;
+}
 
-  .progress-bar {
-      height: 100%;
-      font-size: 12px;
-      line-height: 20px;
-      color: #fffafa;
-      text-align: center;
-      background-color: #F05F33;
-  }
-  
-  .item {
-    padding: 20px;
-    background-color: #e2e2e2;
-  }
+.card {
+  width: 400px;
+  height: auto;
+}
 
-  .progress-bar {
-    position: relative;
-    height: 15px;
-    font-size: 12px;
-    line-height: 20px;
-    color: #fff;
-    text-align: center;
-    background-color: #f05f33;
-  }
-  
-  .progress-bar .tooltip-text {
-    visibility: hidden;
-    width: 100%;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    top: 150%;
-    left: 50%;
-    margin-left: -60px;
-  }
-  .progress-bar .tooltip-text::after {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent transparent black transparent;
-  }
-  
-  .progress-bar:hover .tooltiptext {
-    visibility: visible;
-  }
+.progress {
+  height: auto;
+}
+
+.progress-bar {
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fffafa;
+  text-align: center;
+  background-color: #f05f33;
+}
+
+.item {
+  padding: 20px;
+  background-color: #e2e2e2;
+}
+
+.progress-bar {
+  position: relative;
+  height: 15px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #f05f33;
+}
+
+.progress-bar .tooltip-text {
+  visibility: hidden;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+.progress-bar .tooltip-text::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.progress-bar:hover .tooltiptext {
+  visibility: visible;
+}
