@@ -58,6 +58,7 @@ body {
   left: 50%;
   margin-left: -60px;
 }
+
 .progress-bar .tooltip-text::after {
   content: "";
   position: absolute;
