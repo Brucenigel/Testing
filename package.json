@@ -1,0 +1,41 @@
+{
+  "name": "sun-code-reviewer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A Probot app",
+  "author": "Rogelio John Oliverio",
+  "license": "ISC",
+  "homepage": "https://github.com//",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "build": "rimraf --glob 'dist' && rollup -c rollup.config.ts --configPlugin @rollup/plugin-typescript",
+    "start": "npm run build && node -r dotenv/config ./dist/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "chatgpt": "^5.2.5",
+    "dotenv": "^16.3.1",
+    "probot": "^12.2.4",
+    "rollup": "^3.28.0",
+    "rollup-plugin-esbuild": "^5.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^18.0.0",
+    "jest": "^29.0.0",
+    "nock": "^13.0.5",
+    "rimraf": "^5.0.1",
+    "smee-client": "^1.2.3",
+    "ts-jest": "^29.0.0",
+    "typescript": "^4.1.3"
+  },
+  "engines": {
+    "node": ">= 16"
+  }
+}
