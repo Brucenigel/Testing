@@ -1,0 +1,15 @@
+name: Code Reviewer
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  sun-ai-code-reviewer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: rjoliverio/sun-code-reviewer@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENAI_API_KEY: ${{ vars.OPENAI_API_KEY }}
