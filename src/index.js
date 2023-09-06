@@ -1,3 +1,3 @@
 function add (){
-    return 2 + 2
+    return 4 + 2
 }
